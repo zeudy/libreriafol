@@ -1,0 +1,194 @@
+/*{/* menu aquÃ­*/
+  * {
+    margin:0px;
+}
+.fondo{
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+
+
+}
+
+.logo {
+  width:  130px;
+  border-radius: 6px;
+  margin: 16px 24px 16px 16px;
+
+  position: absolute;
+  top: 50px;
+  left: 180px;
+  animation: App-logo-spin  20s linear;
+ 
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* lo de al lado*/
+.ant-layout-header {
+  background:#0B8732;
+  padding: 0 60px;
+  height: 70px;
+  line-height: 70px;
+  border-color: white;
+
+}
+.ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  background: #090B0C;
+}
+
+
+.ant-menu-dark.ant-menu-horizontal {
+  border-bottom-color: #0B8732;
+}
+
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item,
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-submenu {
+  border-color: #ffffff;
+  border-bottom: 0;
+
+
+}
+.ant-menu-dark .ant-menu-item,
+.ant-menu-dark .ant-menu-item-group-title,
+.ant-menu-dark .ant-men u-item > a {
+  color: #ffffff;
+}
+
+
+
+/*selector de menu */
+.ant-menu-dark .ant-menu-item:hover,
+.ant-menu-dark .ant-menu-item-active,
+.ant-menu-dark .ant-menu-submenu-active,
+.ant-menu-dark:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-dark .ant-menu-submenu-selected,
+.ant-menu-dark .ant-menu-submenu:hover,
+.ant-menu-dark .ant-menu-submenu-title:hover {
+  background-color: transparent;
+  color: hotpink;
+}
+.ant-menu-dark .ant-menu-item:hover > a,
+.ant-menu-dark .ant-menu-item-active > a,
+.ant-menu-dark .ant-menu-submenu-active > a,
+.ant-menu-dark:not(.ant-menu-inline) .ant-menu-submenu-open > a,
+.ant-menu-dark .ant-menu-submenu-selected > a,
+.ant-menu-dark .ant-menu-submenu:hover > a,
+.ant-menu-dark .ant-menu-submenu-title:hover > a {
+  color: #ffffff;
+}
+
+
+.ant-menu-dark .ant-menu-item-selected {
+  border-right: 0;
+  color: #ffffff;
+}
+.ant-menu-dark .ant-menu-item-selected:after {
+  border-right: 0;
+}
+.ant-menu-dark .ant-menu-item-selected > a,
+.ant-menu-dark .ant-menu-item-selected > a:hover {
+  color: #ffffff;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected {
+  background-color: #10BD46;
+  opacity: 0.5;
+}
+
+
+
+.pie {
+
+  width: 100%;
+     bottom: 0;
+     position: relative;
+     height: 100px;
+     background-image:url("https://mail.google.com/mail/u/0/?ui=2&ik=a06f178890&view=att&th=165d42d9764c79f9&attid=0.2&disp=safe&realattid=f_jm0wlfk11&zw");
+     
+
+}
+
+.pie h2{
+
+  text-align: center;
+     color: #fff;
+     position: relative;
+     
+}
+.pie h3{
+
+  text-align: center;
+     color: #fff;
+     position: relative;
+     
+}
+.pie p{
+
+  text-align: center;
+     color: #fff;
+     position: relative;
+     
+}
+
+
+.red{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.vi p {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: 1s;
+  animation-direction: normal;
+  font-size: 50px;
+  padding-left: 750px;
+  padding-top: 35px;
+
+
+}
+
+.pfond{
+  font-size: 25px;
+  text-align: center;
+
+
+}
+.pp{
+  font-size: 20px;
+  opacity: 0.9;
+  
+}
+ 
+
+
+
+.valp{
+  font-size: 30px;
+  text-align: center;
+  animation-name: pulse;
+    animation-duration: 10s;
+    animation-iteration-count: normal;
+}
+
+@keyframes pulse {
+    from {
+        transform : scale(1) translateX(0);
+        opacity : 1;
+    }
+    50% {
+        transform : scale(0.75) translateX(0);
+        opacity : 0.25;
+    }
+    to {
+        transform : scale(1) translateX(0);
+        opacity : 1;
+    }
+}

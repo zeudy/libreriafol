@@ -1,0 +1,22 @@
+
+.back{
+    width:100%;
+    background-color:#A6A464;
+    height:auto;
+    margin-bottom: -20px;
+  }
+  .datos{
+    font-size: 15px;
+    text-align: center;
+    color:white;
+    font-family: 'Poiret One', cursive;
+    padding-top: 3%;
+  
+  }
+  .redes{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  

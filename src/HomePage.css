@@ -1,0 +1,21 @@
+* {
+    margin:0px;
+}
+.fondo{
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+
+}
+.back{
+    background-color: #f0f0f0;
+    width: 100%;
+    min-height: 4300px;
+    margin:0px;
+    padding: 0px;
+}
+
+@media(max-width: 430px){
+
+}

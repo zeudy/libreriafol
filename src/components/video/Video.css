@@ -1,0 +1,45 @@
+.box_video{
+
+    background-color: #fbf9f7;
+    padding: 90px 0;
+    align-Content:center;
+    animation: pulse 1000ms;
+    
+}
+.text_video h3{
+    text-transform: uppercase;
+   position:absolute;
+   left: 44%;
+   
+}
+.text_video p{
+  text-transform: uppercase;
+   position:absolute;
+   left: 35%;
+   
+}
+.boxi{
+    width:400px;
+    text-align: center;
+    left: 100%;
+}
+.video{
+    width:560px;
+    height:315px;
+    left: 70%;
+}
+
+@media(max-width: 450px){
+    .video{
+        width:300px;
+        height:270px;
+    }
+}
+
+
+@media(max-width: 325px){
+    .video{
+        width:250px;
+        height:220px;
+    }
+}
